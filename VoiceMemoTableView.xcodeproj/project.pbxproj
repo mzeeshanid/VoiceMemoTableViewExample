@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA429BE01C5F2308007A6C41 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA429BDF1C5F2308007A6C41 /* MyTableViewCell.m */; };
+		DA429BE31C5F3219007A6C41 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA429BE21C5F3219007A6C41 /* OverlayView.m */; };
+		DAB08F621C5B828E00B331E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB08F611C5B828E00B331E1 /* main.m */; };
+		DAB08F651C5B828E00B331E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB08F641C5B828E00B331E1 /* AppDelegate.m */; };
+		DAB08F681C5B828E00B331E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB08F671C5B828E00B331E1 /* ViewController.m */; };
+		DAB08F6B1C5B828E00B331E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB08F691C5B828E00B331E1 /* Main.storyboard */; };
+		DAB08F6D1C5B828E00B331E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB08F6C1C5B828E00B331E1 /* Assets.xcassets */; };
+		DAB08F701C5B828E00B331E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB08F6E1C5B828E00B331E1 /* LaunchScreen.storyboard */; };
+		DAB08F7B1C5B828F00B331E1 /* VoiceMemoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB08F7A1C5B828F00B331E1 /* VoiceMemoTableViewTests.m */; };
+		DAB08F861C5B828F00B331E1 /* VoiceMemoTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB08F851C5B828F00B331E1 /* VoiceMemoTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB08F771C5B828E00B331E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB08F551C5B828D00B331E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB08F5C1C5B828E00B331E1;
+			remoteInfo = VoiceMemoTableView;
+		};
+		DAB08F821C5B828F00B331E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB08F551C5B828D00B331E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB08F5C1C5B828E00B331E1;
+			remoteInfo = VoiceMemoTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA429BDE1C5F2308007A6C41 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		DA429BDF1C5F2308007A6C41 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		DA429BE11C5F3219007A6C41 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		DA429BE21C5F3219007A6C41 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		DAB08F5D1C5B828E00B331E1 /* VoiceMemoTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemoTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB08F611C5B828E00B331E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB08F631C5B828E00B331E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB08F641C5B828E00B331E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB08F661C5B828E00B331E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB08F671C5B828E00B331E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB08F6A1C5B828E00B331E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB08F6C1C5B828E00B331E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB08F6F1C5B828E00B331E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB08F711C5B828E00B331E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB08F761C5B828E00B331E1 /* VoiceMemoTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceMemoTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB08F7A1C5B828F00B331E1 /* VoiceMemoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceMemoTableViewTests.m; sourceTree = "<group>"; };
+		DAB08F7C1C5B828F00B331E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB08F811C5B828F00B331E1 /* VoiceMemoTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceMemoTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB08F851C5B828F00B331E1 /* VoiceMemoTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceMemoTableViewUITests.m; sourceTree = "<group>"; };
+		DAB08F871C5B828F00B331E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB08F5A1C5B828E00B331E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB08F731C5B828E00B331E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB08F7E1C5B828F00B331E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB08F541C5B828D00B331E1 = {
+			isa = PBXGroup;
+			children = (
+				DAB08F5F1C5B828E00B331E1 /* VoiceMemoTableView */,
+				DAB08F791C5B828E00B331E1 /* VoiceMemoTableViewTests */,
+				DAB08F841C5B828F00B331E1 /* VoiceMemoTableViewUITests */,
+				DAB08F5E1C5B828E00B331E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB08F5E1C5B828E00B331E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB08F5D1C5B828E00B331E1 /* VoiceMemoTableView.app */,
+				DAB08F761C5B828E00B331E1 /* VoiceMemoTableViewTests.xctest */,
+				DAB08F811C5B828F00B331E1 /* VoiceMemoTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB08F5F1C5B828E00B331E1 /* VoiceMemoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DAB08F631C5B828E00B331E1 /* AppDelegate.h */,
+				DAB08F641C5B828E00B331E1 /* AppDelegate.m */,
+				DAB08F661C5B828E00B331E1 /* ViewController.h */,
+				DAB08F671C5B828E00B331E1 /* ViewController.m */,
+				DA429BDE1C5F2308007A6C41 /* MyTableViewCell.h */,
+				DA429BDF1C5F2308007A6C41 /* MyTableViewCell.m */,
+				DA429BE11C5F3219007A6C41 /* OverlayView.h */,
+				DA429BE21C5F3219007A6C41 /* OverlayView.m */,
+				DAB08F691C5B828E00B331E1 /* Main.storyboard */,
+				DAB08F6C1C5B828E00B331E1 /* Assets.xcassets */,
+				DAB08F6E1C5B828E00B331E1 /* LaunchScreen.storyboard */,
+				DAB08F711C5B828E00B331E1 /* Info.plist */,
+				DAB08F601C5B828E00B331E1 /* Supporting Files */,
+			);
+			path = VoiceMemoTableView;
+			sourceTree = "<group>";
+		};
+		DAB08F601C5B828E00B331E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB08F611C5B828E00B331E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB08F791C5B828E00B331E1 /* VoiceMemoTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB08F7A1C5B828F00B331E1 /* VoiceMemoTableViewTests.m */,
+				DAB08F7C1C5B828F00B331E1 /* Info.plist */,
+			);
+			path = VoiceMemoTableViewTests;
+			sourceTree = "<group>";
+		};
+		DAB08F841C5B828F00B331E1 /* VoiceMemoTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB08F851C5B828F00B331E1 /* VoiceMemoTableViewUITests.m */,
+				DAB08F871C5B828F00B331E1 /* Info.plist */,
+			);
+			path = VoiceMemoTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB08F5C1C5B828E00B331E1 /* VoiceMemoTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB08F8A1C5B828F00B331E1 /* Build configuration list for PBXNativeTarget "VoiceMemoTableView" */;
+			buildPhases = (
+				DAB08F591C5B828E00B331E1 /* Sources */,
+				DAB08F5A1C5B828E00B331E1 /* Frameworks */,
+				DAB08F5B1C5B828E00B331E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceMemoTableView;
+			productName = VoiceMemoTableView;
+			productReference = DAB08F5D1C5B828E00B331E1 /* VoiceMemoTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB08F751C5B828E00B331E1 /* VoiceMemoTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB08F8D1C5B828F00B331E1 /* Build configuration list for PBXNativeTarget "VoiceMemoTableViewTests" */;
+			buildPhases = (
+				DAB08F721C5B828E00B331E1 /* Sources */,
+				DAB08F731C5B828E00B331E1 /* Frameworks */,
+				DAB08F741C5B828E00B331E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB08F781C5B828E00B331E1 /* PBXTargetDependency */,
+			);
+			name = VoiceMemoTableViewTests;
+			productName = VoiceMemoTableViewTests;
+			productReference = DAB08F761C5B828E00B331E1 /* VoiceMemoTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB08F801C5B828F00B331E1 /* VoiceMemoTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB08F901C5B828F00B331E1 /* Build configuration list for PBXNativeTarget "VoiceMemoTableViewUITests" */;
+			buildPhases = (
+				DAB08F7D1C5B828F00B331E1 /* Sources */,
+				DAB08F7E1C5B828F00B331E1 /* Frameworks */,
+				DAB08F7F1C5B828F00B331E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB08F831C5B828F00B331E1 /* PBXTargetDependency */,
+			);
+			name = VoiceMemoTableViewUITests;
+			productName = VoiceMemoTableViewUITests;
+			productReference = DAB08F811C5B828F00B331E1 /* VoiceMemoTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB08F551C5B828D00B331E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hamid Ismail";
+				TargetAttributes = {
+					DAB08F5C1C5B828E00B331E1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DAB08F751C5B828E00B331E1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAB08F5C1C5B828E00B331E1;
+					};
+					DAB08F801C5B828F00B331E1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DAB08F5C1C5B828E00B331E1;
+					};
+				};
+			};
+			buildConfigurationList = DAB08F581C5B828D00B331E1 /* Build configuration list for PBXProject "VoiceMemoTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB08F541C5B828D00B331E1;
+			productRefGroup = DAB08F5E1C5B828E00B331E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB08F5C1C5B828E00B331E1 /* VoiceMemoTableView */,
+				DAB08F751C5B828E00B331E1 /* VoiceMemoTableViewTests */,
+				DAB08F801C5B828F00B331E1 /* VoiceMemoTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB08F5B1C5B828E00B331E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB08F701C5B828E00B331E1 /* LaunchScreen.storyboard in Resources */,
+				DAB08F6D1C5B828E00B331E1 /* Assets.xcassets in Resources */,
+				DAB08F6B1C5B828E00B331E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB08F741C5B828E00B331E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB08F7F1C5B828F00B331E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB08F591C5B828E00B331E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB08F681C5B828E00B331E1 /* ViewController.m in Sources */,
+				DA429BE31C5F3219007A6C41 /* OverlayView.m in Sources */,
+				DA429BE01C5F2308007A6C41 /* MyTableViewCell.m in Sources */,
+				DAB08F651C5B828E00B331E1 /* AppDelegate.m in Sources */,
+				DAB08F621C5B828E00B331E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB08F721C5B828E00B331E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB08F7B1C5B828F00B331E1 /* VoiceMemoTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB08F7D1C5B828F00B331E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB08F861C5B828F00B331E1 /* VoiceMemoTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB08F781C5B828E00B331E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB08F5C1C5B828E00B331E1 /* VoiceMemoTableView */;
+			targetProxy = DAB08F771C5B828E00B331E1 /* PBXContainerItemProxy */;
+		};
+		DAB08F831C5B828F00B331E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB08F5C1C5B828E00B331E1 /* VoiceMemoTableView */;
+			targetProxy = DAB08F821C5B828F00B331E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB08F691C5B828E00B331E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB08F6A1C5B828E00B331E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB08F6E1C5B828E00B331E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB08F6F1C5B828E00B331E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB08F881C5B828F00B331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB08F891C5B828F00B331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB08F8B1C5B828F00B331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceMemoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thatclose.VoiceMemoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB08F8C1C5B828F00B331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceMemoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thatclose.VoiceMemoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB08F8E1C5B828F00B331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceMemoTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thatclose.VoiceMemoTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceMemoTableView.app/VoiceMemoTableView";
+			};
+			name = Debug;
+		};
+		DAB08F8F1C5B828F00B331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceMemoTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thatclose.VoiceMemoTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceMemoTableView.app/VoiceMemoTableView";
+			};
+			name = Release;
+		};
+		DAB08F911C5B828F00B331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoiceMemoTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thatclose.VoiceMemoTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VoiceMemoTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB08F921C5B828F00B331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoiceMemoTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thatclose.VoiceMemoTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VoiceMemoTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB08F581C5B828D00B331E1 /* Build configuration list for PBXProject "VoiceMemoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB08F881C5B828F00B331E1 /* Debug */,
+				DAB08F891C5B828F00B331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB08F8A1C5B828F00B331E1 /* Build configuration list for PBXNativeTarget "VoiceMemoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB08F8B1C5B828F00B331E1 /* Debug */,
+				DAB08F8C1C5B828F00B331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB08F8D1C5B828F00B331E1 /* Build configuration list for PBXNativeTarget "VoiceMemoTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB08F8E1C5B828F00B331E1 /* Debug */,
+				DAB08F8F1C5B828F00B331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB08F901C5B828F00B331E1 /* Build configuration list for PBXNativeTarget "VoiceMemoTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB08F911C5B828F00B331E1 /* Debug */,
+				DAB08F921C5B828F00B331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB08F551C5B828D00B331E1 /* Project object */;
+}
