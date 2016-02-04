@@ -7,3 +7,9 @@ UITableView like voice memo app in iOS 8.
 **_This is just an example project._**
 
 For more information see **_[this blog post](http://zufatech.com/2016/02/01/create-uitableview-like-voice-memo-app-ios-8/)_** that explains the core logic step by step. **_Enjoy!_**
+
+#### VoiceMemo App's Screenshot
+![alt text](https://raw.githubusercontent.com/mzeeshanid/VoiceMemoTableViewExample/master/VoiceMemo.png "VoiceMemo App's Screenshot")  
+
+#### Our Example App's screenshot
+![alt text](https://raw.githubusercontent.com/mzeeshanid/VoiceMemoTableViewExample/master/OurExample.png "Our Example App's screenshot")
